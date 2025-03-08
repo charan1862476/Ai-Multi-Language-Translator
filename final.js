@@ -1,4 +1,4 @@
-// const apiKey = "AIzaSyAC5U1_HDwL5JEhXbm2QVe7Ghnp2VV8gx4"; // Replace with your Google API key
+ const apiKey = "AIzaSyAC5U1_HDwL5JEhXbm2QVe7Ghnp2VV8gx4"; // Replace with your Google API key
 
 // Function to handle translation from any input
 function translateText(text) {
