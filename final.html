@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-language Translator</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Translate</div>
+        </header>
+
+        <main>
+            <h1>Get A Quick, Free Translation</h1>
+
+            <div class="translation-inputs">
+                <label for="sourceLanguage">From:</label>
+                <select id="sourceLanguage">
+                    <option value="auto">Auto Detect</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="hi">Hindi</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="it">Italian</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="ru">Russian</option>
+                    <option value="zh">Chinese (Simplified)</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ko">Korean</option>
+                    <option value="ar">Arabic</option>
+                    <option value="tr">Turkish</option>
+                    <option value="nl">Dutch</option>
+                    <option value="sv">Swedish</option>
+                    <option value="da">Danish</option>
+                    <option value="fi">Finnish</option>
+                    <option value="pl">Polish</option>
+                    <option value="th">Thai</option>
+                    <option value="vi">Vietnamese</option>
+                    <option value="he">Hebrew</option>
+                    <option value="id">Indonesian</option>
+                    <option value="ms">Malay</option>
+                    <option value="uk">Ukrainian</option>
+                </select>
+
+                <input type="text" id="sourceText" placeholder="Enter text">
+                <button id="translateButton">Translate</button>
+
+                <input type="file" id="fileUpload" accept=".txt">
+                <button id="uploadButton">Translate File</button>
+
+                <input type="file" id="imageUpload" accept="image/*">
+                <button id="imageUploadButton">Translate Image</button>
+
+                <button id="speechButton">Speak & Translate</button>
+
+                <label for="targetLanguage">To:</label>
+                <select id="targetLanguage">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="hi">Hindi</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="it">Italian</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="ru">Russian</option>
+                    <option value="zh">Chinese (Simplified)</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ko">Korean</option>
+                    <option value="ar">Arabic</option>
+                    <option value="tr">Turkish</option>
+                    <option value="nl">Dutch</option>
+                    <option value="sv">Swedish</option>
+                    <option value="da">Danish</option>
+                    <option value="fi">Finnish</option>
+                    <option value="pl">Polish</option>
+                    <option value="th">Thai</option>
+                    <option value="vi">Vietnamese</option>
+                    <option value="he">Hebrew</option>
+                    <option value="id">Indonesian</option>
+                    <option value="ms">Malay</option>
+                    <option value="uk">Ukrainian</option>
+                </select>
+            </div>
+
+            <div id="translationOutput">
+                <p>Translation will appear here.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="final.js"></script>
+</body>
+</html>
